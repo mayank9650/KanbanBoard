@@ -53,8 +53,9 @@ project-root/
 
 ## Optimization and design
 
-    1.React memo and usecallbacks for optimization 
-    2.react-beautiful-dnd: Drag-and-drop functionality
+    1.Memoization techniques to reduce re- renders.
+    2.react-beautiful-dnd: Drag-and-drop functionality.
+    3.Responsive layout handled. 
 
 ## Limitations and enhancements
 
