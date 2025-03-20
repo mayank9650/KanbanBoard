@@ -20,7 +20,7 @@ const KanbanBoard = () => {
   const fetchInitialTodo = async () => {
     try {
       setLoading(true);
-      const res = await fetch("https://dummyjson.com/todos?limit=10&skip=0");
+      const res = await fetch("https://dummyjson.com/todos?limit=5&skip=0");
       const data = await res.json();
       const transformedData = transformTasks(data);
       setTasks(transformedData);

@@ -1,5 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: #788599;
+  --mainWhite: #f7f7f7;
+  --mainBlack: #333;
+  --lightShadow: 3px 6px 4px rgba(0, 0, 0, 0.15);
+  --smallWidth: 80vw;
 }
